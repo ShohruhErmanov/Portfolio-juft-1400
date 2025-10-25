@@ -14,6 +14,8 @@
     --text-base--line-height: calc(1.5 / 1);
     --text-lg: 1.125rem;
     --text-lg--line-height: calc(1.75 / 1.125);
+    --text-2xl: 1.5rem;
+    --text-2xl--line-height: calc(2 / 1.5);
     --text-5xl: 3rem;
     --text-5xl--line-height: 1;
     --font-weight-medium: 500;
@@ -177,14 +179,26 @@
   .mx-auto {
     margin-inline: auto;
   }
+  .mt-\[20px\] {
+    margin-top: 20px;
+  }
   .mt-\[39px\] {
     margin-top: 39px;
   }
   .mt-\[73px\] {
     margin-top: 73px;
   }
+  .mt-\[80px\] {
+    margin-top: 80px;
+  }
   .mt-\[104px\] {
     margin-top: 104px;
+  }
+  .mt-\[140px\] {
+    margin-top: 140px;
+  }
+  .mb-\[7px\] {
+    margin-bottom: 7px;
   }
   .mb-\[72px\] {
     margin-bottom: 72px;
@@ -246,6 +260,9 @@
   .justify-center {
     justify-content: center;
   }
+  .gap-x-\[18px\] {
+    column-gap: 18px;
+  }
   .gap-x-\[30px\] {
     column-gap: 30px;
   }
@@ -266,6 +283,9 @@
   }
   .gap-y-\[58px\] {
     row-gap: 58px;
+  }
+  .gap-y-\[69px\] {
+    row-gap: 69px;
   }
   .border {
     border-style: var(--tw-border-style);
@@ -306,6 +326,10 @@
   .pb-\[66px\] {
     padding-bottom: 66px;
   }
+  .text-2xl {
+    font-size: var(--text-2xl);
+    line-height: var(--tw-leading, var(--text-2xl--line-height));
+  }
   .text-5xl {
     font-size: var(--text-5xl);
     line-height: var(--tw-leading, var(--text-5xl--line-height));
@@ -323,6 +347,9 @@
   }
   .text-\[40px\] {
     font-size: 40px;
+  }
+  .text-\[88px\] {
+    font-size: 88px;
   }
   .leading-\[26px\] {
     --tw-leading: 26px;
